@@ -88,7 +88,7 @@ for link in links:
     all_data.append(data)
 
 # Write data in json
-with open('data.json', 'a') as file:
+with open('data.json', 'w') as file:
     json.dump(all_data, file, indent=4)
     file.write('\n')
 
